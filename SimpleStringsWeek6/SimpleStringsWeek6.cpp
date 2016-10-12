@@ -18,7 +18,7 @@ int main()
 
 	printf("BEFORE:\nstring1 = %s\nstring2 = %s\nstring3 = %s\n\n\n", string1, string2, string3);
 
-
+	//Converts all digits to spaces
 	for (i = 0; string1[i] != '\0'; i++)
 	{
 		ascii = string1[i];
@@ -29,7 +29,7 @@ int main()
 		}
 	}
 
-
+	//Converts uppercase to lowercase
 	for (i = 0; string2[i] != '\0'; i++)
 	{
 		ascii = string2[i];
@@ -41,7 +41,7 @@ int main()
 		}
 	}
 
-
+	//Converts lowercase to uppercase
 	for (i = 0; string3[i] != '\0'; i++)
 	{
 		ascii = string3[i];
